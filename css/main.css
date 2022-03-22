@@ -1,0 +1,287 @@
+header {
+    background: #403C3B;
+}
+
+.HeaderMain {
+    padding-top: 23px;
+    padding-bottom: 24px;
+}
+
+.HeaderLogo {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.HeaderLogo:hover {
+    color: #FFFFFF;
+}
+
+.HeaderInput {
+    background: #504B4A;
+    border-radius: 10px;
+}
+
+.HeaderInput .fa-location-dot {
+    padding: 16px 18px;
+}
+
+.HeaderInput .HeaderInputP {
+    font-size: 18px;
+    line-height: 21px;
+    color: #CFCFCF;
+    padding: 10px 158px 0 0;
+    margin-bottom: 0;
+
+}
+
+.HeaderInput .fa-magnifying-glass {
+    padding: 16px 17px 16px 0;
+}
+
+.HeaderInput i {
+    color: #CFCFCF;
+    cursor: pointer;
+}
+
+.PhoneNumber .fa-phone {
+    margin-right: 10px;
+    padding: 12px 12px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contactNumber .NumberP {
+    font-size: 12px;
+    line-height: 20px;
+    color: #CFCFCF;
+}
+
+.contactNumber .HeaderContactNumber {
+    font-family: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.HeaderKorzina {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    padding: 16px 9px 17px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.line {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transform: rotate(90deg);
+    margin-left: 20px;
+    margin-right: 12px;
+}
+
+.HeaderKorzinaSpan {
+    background: #FFFFFF;
+    padding: 5px;
+    color: #000;
+    border-radius: 50%;
+}
+
+.HeaderContentImg {
+    padding: 0;
+    background: url(../img/Mask\ Group.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden !important;
+}
+
+.HeaderContentImg h1 {
+    text-shadow: -13px 9px 0px #81818183;
+    font-size: 67px;
+    line-height: 109.2%;
+    text-align: center;
+    color: #FFFFFF;
+    transform: rotate(-8.37deg);
+    padding-top: 140px;
+}
+
+.HeaderContentImg h2 {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    transform: rotate(-8.02deg);
+    font-size: 35px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 136px;
+}
+
+.HeaderBottomNavbar ul li a {
+    text-decoration: none;
+    color: #d8d8d8;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.HeaderBottomNavbar {
+    padding: 28px 87px;
+}
+
+.HeaderBottomNavbar ul li a:hover {
+    color: #fff;
+}
+
+.HeaderBottomNavbar ul li {
+    list-style-type: none;
+}
+
+.HeaderBottomNavbar ul li a::before {
+    content: "";
+    position: absolute;
+    width: 153px;
+    height: 3px;
+    background: #618967;
+    width: 153px;
+    margin-top: 24px;
+    clear: right;
+    display: none;
+    transition: .5s;
+}
+
+.HeaderBottomNavbar ul li a:hover:before {
+    display: block;
+}
+
+.Section2 {
+    background: #403C3B;
+}
+
+.Zakuski {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 40px;
+}
+
+.Zakuski::before {
+    content: '';
+    position: absolute;
+    background: #618967;
+    transform: rotate(90deg);
+    width: 33px;
+    height: 4px;
+    left: 137px;
+    margin-top: 20px;
+}
+
+.card {
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 15px;
+    /* box-shadow: 0px 30px 45px rgba(43, 40, 40, 0.6); */
+
+}
+
+.main-carousel{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card .card-body .card-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.card .card-body .CardOgirlik {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding-left: 140px;
+}
+
+.card .card-body .card-text {
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #CFCFCF;
+}
+
+.card .card-body .CardPrice {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+
+.card .card-body .CardBtn {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 17px;
+    color: #FFFFFF;
+margin-left: 101px;
+}
+
+.main-carousel .cell{
+    padding-left: 20px;
+}
+.flickity-button{
+    display: none;
+}
+.flickity-page-dots{
+    display: none;
+}
+.HoverBtn{
+    display: none;
+
+}
+.card-body:hover .CardBtn{
+    display: none;
+}
+.card-body:hover .CardPrice{
+    display: none;
+}
+.card-body:hover .HoverBtn{
+    display: flex;
+    justify-content: space-around;
+}
+.HoverBtn .BtnMinus{
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+border-radius: 10px;
+padding: 10px 22px;
+text-decoration: none;
+color: #fff;
+}
+.HoverBtn .BtnPlus{
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    padding: 10px 22px;
+    text-decoration: none;
+    color: #fff;
+}
+.HoverBtn .BtnNarx{
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+align-self: center;
+}
+
+/* Section3 */
+.Section3{
+    background: #403C3B;
+}
